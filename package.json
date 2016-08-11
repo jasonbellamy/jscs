@@ -1,0 +1,28 @@
+{
+  "name": "jscs",
+  "description": "Traditional computer science sorting algorithms and data structures implemented in JavaScript.",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jasonbellamy/jscs",
+  "author": {
+    "name": "Jason Bellamy",
+    "email": "j@sonbellamy.com",
+    "url": "http://jasonbellamy.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonbellamy/jscs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonbellamy/jscs/issues"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/babel-tape-runner ./test/**/**/*.spec.js | tap-spec"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-tape-runner": "^2.0.1",
+    "tape": "^4.6.0"
+  }
+}
