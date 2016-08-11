@@ -1,4 +1,4 @@
-# jsci [![Build Status](https://travis-ci.org/jasonbellamy/jscs.svg)](https://travis-ci.org/jasonbellamy/jscs)
+# jscs [![Build Status](https://travis-ci.org/jasonbellamy/jscs.svg)](https://travis-ci.org/jasonbellamy/jscs)
 
 > Traditional computer science sorting algorithms and data structures implemented in JavaScript.
 
