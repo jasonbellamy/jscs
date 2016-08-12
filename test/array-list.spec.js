@@ -3,7 +3,7 @@ import { range } from '../src/util/range.js';
 import { arrayList } from '../src/array-list.js';
 
 
-const alphabet = range(97, (97 + 26)).map(x => String.fromCharCode(x));
+const alphabet = range(97, (97 + 25)).map(x => String.fromCharCode(x));
 
 test('push', (t) => {
   const list = arrayList();

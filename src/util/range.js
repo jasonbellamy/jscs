@@ -9,6 +9,6 @@
  * @returns {Array} an array of numbers
  */
 export function range(x, y, xs = []) {
-  return (x >= y) ? xs : range(x + 1, y, [...xs, x]);
+  return (x > y) ? xs : range(x + 1, y, [...xs, x]);
 }
 
