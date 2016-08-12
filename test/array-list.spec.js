@@ -9,7 +9,7 @@ test('push', (t) => {
   const list = arrayList();
   alphabet.map(x => list.push(x));
 
-  t.equal(list.length(), 26);
+  t.equal(list.length, 26);
   t.end();
 });
 
@@ -18,7 +18,7 @@ test('pop', (t) => {
   alphabet.map(x => list.push(x));
   list.pop();
 
-  t.equal(list.length(), 25);
+  t.equal(list.length, 25);
   t.equal(list.pop(), 'y');
   t.end();
 });
@@ -38,12 +38,12 @@ test('delete', (t) => {
   alphabet.map(x => list.push(x));
 
   list.delete(13);
-  t.equal(list.length(), 25);
+  t.equal(list.length, 25);
   t.equal(list.get(12), 'm');
   t.equal(list.get(13), 'o');
 
   list.delete(0);
-  t.equal(list.length(), 24);
+  t.equal(list.length, 24);
   t.equal(list.get(0), 'b');
 
   t.end();

@@ -13,7 +13,9 @@ export function arrayList() {
     pop: pop.bind(this, xs),
     get: get.bind(this, xs),
     delete: remove.bind(this, xs),
-    length: length.bind(this, xs)
+    get length() {
+      return length.call(this, xs);
+    }
   }
 }
 
