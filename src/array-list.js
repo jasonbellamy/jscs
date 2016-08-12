@@ -40,8 +40,9 @@ function push(xs, x) {
  * @returns {Mixed} the value of the removed element
  */
 function pop(xs) {
-  const x = xs[length(xs) - 1];
-  return delete xs[length(xs) - 1], x;
+  const i = length(xs) - 1;
+  const x = xs[i];
+  return delete xs[i], x;
 }
 
 /**
